@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Titillium+Web&family=Courier+Prime&display=swap');
+
+* {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: rgb(35, 23, 63);
+    color: black;
+    text-shadow: 0px 0px 5px #322d4d5b;
+    margin: 20px;
+}
+
+a {
+    color: mediumslateblue;
+    text-shadow: 2px 2px 0px #322d4d5b;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(192, 180, 245);
+    font-size: 105%;
+}
+
+.bigimg {
+    height: 25vh;
+    width: auto;
+}
+
+.bigimg:hover {
+    height: 26vh;
+    width: auto;
+}
+
+
+.glow {
+    color: rgb(247, 240, 255);
+    text-shadow: 0px 0px 20px rgb(24, 8, 49);
+}
+
+.void {
+    color: rgb(22, 17, 51);
+    text-shadow: 0px 0px 20px rgba(247, 240, 255, 0.692);
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.boxbig {
+    margin: 14vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(71, 61, 139, 0.397);
+    border-style: groove;
+    border-color: rgba(46, 0, 130, 0.575);
+    border-width: 0.6vw;
+}
+
+.boxbig:hover {
+    padding: 22px;
+    margin: 13.5vw;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    box-shadow: 0px 5px 5px #240e57b7;
+}
+
+
+#section {
+    background-color:rgb(35, 23, 63);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+.container {
+    background-color:darkslateblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+h2 b {
+    color: white;
+    text-shadow: none;
+}
+
+h2 b:hover {
+    font-size: 110%;
+}
+
+.quickimage {
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2.2s;
+    scale: 1;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 31px;
+    height: auto;
+  }
+  
+  .quickimage:hover {
+    width: 42px;
+    height: auto;
+  }
+  
+
+  .quickimage-skill {
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1.2s;
+    width: auto;height: 45px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .quickimage-skill:hover {
+    width: auto;height: 55px;
+  }
