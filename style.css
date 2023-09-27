@@ -30,11 +30,13 @@ a:hover {
 .bigimg {
     height: 25vh;
     width: auto;
+    border-radius: 50%;
 }
 
 .bigimg:hover {
     height: 26vh;
     width: auto;
+    border-radius: 10%;
 }
 
 
