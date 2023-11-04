@@ -157,13 +157,13 @@ h2 b:hover {
 
   .quickimage-skill {
     transition: cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
-    width: auto;height: 45px;
+    width: auto;height: 3.5vw;
     padding-left: 12px;
     padding-right: 12px;
   }
   
   .quickimage-skill:hover {
-    width: auto;height: 55px;
+    width: auto;height: 3.8vw;
     
   }
 
@@ -192,4 +192,32 @@ h1 #wefhsiof a img:hover {
 
 .scalableHeader:hover {
     text-shadow: 3px 3px 0px rgb(102, 70, 177);
+}
+
+.button {
+     /* Green */
+    border: solid;
+    border-color: #614caf;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Fira Code', monospace;
+    margin: 4px 2px;
+    transition: ease-out 0.2s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.purple {
+    background-color: #614caf;
+}
+
+.purple:hover {
+    background-color: #3e2b72;
+    border: solid;
+    border-color: #5a45a8;
+    color: #ffffff;
 }
