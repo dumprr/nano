@@ -128,6 +128,14 @@ a:hover {
     width: 100%;
 }
 
+.biggy {
+    font-size: 130%;
+}
+
+.biggy:hover {
+    font-size: 180%;
+}
+
 html, body {
     margin:0;
     padding:0;
